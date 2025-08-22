@@ -52,7 +52,7 @@ jobs:
       with:
         mask-password: false
         registry-type: private
-        skip-logout: true
+        skip-logout: false
       env:
         AWS_REGION: us-east-1 # Ensure your environment has the correct region
         TERRAFORM_CLI_PATH: /home/runner/work/_temp/d747af65-d62e-4200-b1eb-3693991067e9
